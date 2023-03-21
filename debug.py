@@ -1,4 +1,4 @@
-# import ipdb
+import ipdb
 from lib import *
 
 #code here
@@ -11,9 +11,9 @@ f4 = Freebie(d1, c1, 4, 1)
 f4 = Freebie(d1, c1, 4, 1)
 
 
-print(c1.freebies())
+# print(c1.freebies())
 #print(c1.devs())
 
 
 
-# ipdb.set_trace()
+ipdb.set_trace()

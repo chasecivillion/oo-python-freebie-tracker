@@ -12,3 +12,6 @@ class Freebie:
     @classmethod
     def all(cls):
         return cls.instances
+
+    def print_details(self):
+        print(f'{self.dev.name} owns a {self.item_column} from {self.company.name}')
