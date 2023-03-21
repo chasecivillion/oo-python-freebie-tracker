@@ -1,4 +1,9 @@
 from .freebie import Freebie
 
 class Company:
-    pass
+
+    def __init__ (self, name, founding_year):
+        self.name = name
+        self.founding_year = founding_year
+        
+    
