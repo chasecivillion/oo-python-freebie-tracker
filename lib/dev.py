@@ -1,4 +1,9 @@
 from .freebie import Freebie
 
 class Dev:
-    pass
+    
+    
+    def __init__(self, name):
+        self.name = name
+
+
