@@ -9,10 +9,6 @@ class Company:
     def freebies(self):
         return_list = []
         for i in Freebie.all():
-<<<<<<< HEAD
-            print(Freebie.instances[0])
-=======
->>>>>>> 9d5e4b7944828233ff5b8a23250c248db88adffc
             if i.company == self:
                 return_list.append(i)
         return return_list
@@ -20,7 +16,7 @@ class Company:
     def devs(self):
         return_list = []
         for i in Freebie.all():
-            if i.company == self.name:
+            if i.company == self:
                 if not i.dev in return_list:
                     return_list.append(i.dev)
         return return_list
