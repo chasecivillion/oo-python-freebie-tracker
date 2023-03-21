@@ -22,3 +22,13 @@ class Company:
                     return_list.append(i.dev)
         return return_list
     
+    def give_freebie(self, dev, item_name, value):
+        new_freebie = Freebie(dev, self, item_name, value)
+    
+    def oldest_company():
+        win = Company.all()[0].founding_year
+        for i in Company.all():
+            if i.founding_year < win:
+                win = i
+        return win
+    

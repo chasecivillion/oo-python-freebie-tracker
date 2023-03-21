@@ -1,4 +1,4 @@
-import ipdb
+# import ipdb
 from lib import *
 
 #code here
@@ -16,4 +16,4 @@ f4 = Freebie(d1, c1, 4, 1)
 
 
 
-ipdb.set_trace()
+# ipdb.set_trace()
