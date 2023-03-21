@@ -6,3 +6,5 @@ class Freebie:
         self.company = company
         self.item_column = item_column
         self.value_column = value_column
+
+    
