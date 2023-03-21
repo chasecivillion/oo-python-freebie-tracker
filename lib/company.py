@@ -18,3 +18,11 @@ class Company:
                 return_list.append(i)
         return return_list
     
+    def devs(self):
+        return_list = []
+        for i in Freebie.all():
+            if i.company == self.name:
+                if not i.dev in return_list:
+                    return_list.append(i.dev)
+        return return_list
+    
