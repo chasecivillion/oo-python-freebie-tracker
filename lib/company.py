@@ -6,4 +6,15 @@ class Company:
         self.name = name
         self.founding_year = founding_year
         
+
+    def give_freebie(self, freebie):
+
+        pass
+
+    def freebies(self):
+        return_list = []
+        for i in Freebie.all():
+            if i.company == self.name:
+                return_list.append(i)
+        return return_list
     
